@@ -1,0 +1,66 @@
+/* HTML STRUCTURE */
+/* Step -1 - parentContainer */
+/* step -2 - component */
+/* step -3 - componentContainer */
+/* step -4 - row */
+/* step -5 - column */
+/* step -6 - subColumn */
+/* step -7 - contentContainer */
+/* step -8 - content */
+
+/* parent Container - default css style */
+
+
+/* step -2 - component */
+.products {
+    /* background-color: rgb(241, 11, 11);   */
+   
+}
+
+/* step -3 - componentContainer */
+.productsContainer {
+    /* background-color: rgb(91, 226, 12); */
+
+}
+
+/* step -4 - row */
+.productsBody {
+    /* background-color: rgb(255, 255, 255); */
+
+}
+
+/* step -5 - column */
+.productsBlock {
+    /* background-color: #fc03c6; */
+   
+}
+
+/* step -6 - subColumn */
+.productsBox {
+    /* background-color: #dfbd4d; */
+    
+}
+
+/* step -7 - contentContainer */
+.productsBox .cardHeader h1{
+    /* color: black; */
+    /* font-family: var(--ffSecondary);
+    font-size:var(--headingFont) ;
+    font-weight: 600;
+    margin-bottom:2rem ; */
+     /* line-height: 1; */
+}
+.productsBox .cardMain p{
+     /* color: black; */
+    /* font-family: var(--ffSecondary);
+    font-size:var(--regularFont) ;
+    font-weight: 600;
+    margin-bottom:2rem ; */
+     /* line-height: 1; */
+}
+.productsBox .cardFooter button{
+    /* font-family: var(--ffSecondary);
+    font-size:var(--regularFont) ;
+    font-weight: 600;
+    margin-bottom:2rem ; */
+}

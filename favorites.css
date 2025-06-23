@@ -1,0 +1,137 @@
+/* HTML STRUCTURE */
+/* Step -1 - parentContainer */
+/* step -2 - component */
+/* step -3 - componentContainer */
+/* step -4 - row */
+/* step -5 - column */
+/* step -6 - subColumn */
+/* step -7 - contentContainer */
+/* step -8 - content */
+
+/* parent Container - default css style */
+
+
+/* step -2 - component */
+.favorites {
+  background-color: rgb(255, 255, 255);  
+  padding: 8rem 0rem;
+
+}
+
+/* step -3 - componentContainer */
+.favoritesContainer {
+  /* background-color: rgb(91, 226, 12); */
+
+}
+
+/* step -4 - row */
+.favoritesBody {
+  /* background-color: rgb(255, 255, 255); */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+
+}
+
+
+
+/* step -5 - column */
+.favoritesBlock {
+  /* background-color: #fc03c6; */
+
+
+
+}
+
+/* step -6 - subColumn */
+.favoritesBox1 {
+  /* background-color: #94f0f0; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.favoritesBox1 h2 {
+  /* background-color: #94f0f0; */
+  font-size: 3.5rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+
+
+
+}
+
+.favoritesBox2 {
+  /* background-color: #94f0f0; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+.viewlink {
+  font-size: 1.8rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+
+
+/* step -7 - contentContainer */
+
+.favoritesConBody {
+  background-color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.favoritesConBlock {
+  /* background-color: #fc03c6; */
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  padding: 2rem 0rem;
+  will-change: transform;
+}
+
+
+.favoritesConBox {
+  /* background-color: #94f0f0; */
+  flex: 0 0 auto;
+  width: 285px;
+  height: auto;
+  /* border: 2px solid black; */
+  margin-right: 10px;
+}
+
+
+.favoritesConBox img {
+  /* background-color: #fc03c6; */
+  height: 20rem;
+  width: 100%;
+  margin: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.favoritesConBox h2 {
+  /* background-color: #fc03c6; */
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  padding: 0rem 1rem;
+  text-wrap: wrap;
+}
+
+.favoritesConBox p {
+  /* background-color: #fc03c6; */
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  color: rgb(70, 70, 70);
+}

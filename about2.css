@@ -1,0 +1,95 @@
+/* HTML STRUCTURE */
+/* Step -1 - parentContainer */
+/* step -2 - component */
+/* step -3 - componentContainer */
+/* step -4 - row */
+/* step -5 - column */
+/* step -6 - subColumn */
+/* step -7 - contentContainer */
+/* step -8 - content */
+
+/* parent Container - default css style */
+
+
+/* step -2 - component */
+.about2 {
+    background-color: rgb(255, 255, 255);  
+   
+}
+
+/* step -3 - componentContainer */
+.about2Container {
+    /* background-color: rgb(91, 226, 12); */
+
+}
+
+/* step -4 - row */
+.about2Body {
+    /* background-color: rgb(255, 255, 255); */
+    padding-top: 3rem;
+
+}
+
+/* step -5 - column */
+.about2Block {
+    /* background-color: #fc03c6; */
+   
+}
+
+/* step -6 - subColumn */
+.about2Box{
+    /* background-color: #dfbd4d; */
+}
+
+.about2Box2{
+    /* background-color: #dfbd4d; */
+    text-align: start;
+    width: 100%;
+}
+
+
+
+/* step -7 - contentContainer */
+.about2Box1 img{
+    /* background-color: aqua; */
+    height: 50rem;
+    width: auto;
+    margin-bottom: 5rem;
+}
+
+.about2Box2 h1{
+    /* background-color: aquamarine; */
+    color: #000000;
+     font-family: "Montserrat", sans-serif;
+    font-size:4.5rem ;
+    font-weight: 700;
+    margin-bottom:3rem ;
+    line-height: 1;
+    text-wrap: wrap;
+    text-align: start;
+
+}
+.about2Box2 p{
+    /* background-color: rgb(80, 128, 112); */
+    color: #000000;
+    font-family:"Outfit", sans-serif;
+    font-size:1.8rem ;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 5rem;
+     text-wrap: wrap;
+     text-align: start;
+}
+
+.about2Box2 a{
+    /* background-color: rgb(80, 128, 112); */
+    color: #ffffff;
+    font-family:"Outfit", sans-serif;
+    font-size:1.8rem ;
+    font-weight: 600;
+    padding: 1.5rem 2rem;
+    background-color: #000000;
+    border-radius: 3rem;
+}
+
+

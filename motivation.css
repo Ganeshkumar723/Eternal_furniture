@@ -1,0 +1,184 @@
+/* HTML STRUCTURE */
+/* Step -1 - parentContainer */
+/* step -2 - component */
+/* step -3 - componentContainer */
+/* step -4 - row */
+/* step -5 - column */
+/* step -6 - subColumn */
+/* step -7 - contentContainer */
+/* step -8 - content */
+
+/* parent Container - default css style */
+
+
+/* step -2 - component */
+.motivation {
+  background-color: rgb(255, 255, 255);
+  padding: 8rem 0rem;
+
+}
+
+/* step -3 - componentContainer */
+.motivationContainer {
+  /* background-color: rgb(91, 226, 12); */
+
+}
+
+/* step -4 - row */
+.motivationBody {
+  /* background-color: rgb(255, 255, 255); */
+  display: grid;
+  grid-template-columns: 1fr;
+
+
+}
+
+
+
+/* step -5 - column */
+.motivationBlock {
+  /* background-color: #fc03c6; */
+
+
+
+}
+
+/* step -6 - subColumn */
+.motivationBox1 {
+  /* background-color: #94f0f0; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.motivationBox1 h2 {
+  /* background-color: #94f0f0; */
+  font-size: 5rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  margin-bottom: 3rem;
+
+
+
+}
+
+
+
+
+
+
+/* step -7 - contentContainer */
+
+.motivationConBody {
+  /* background-color: #e4b9da; */
+  max-width: 1200px;
+  margin: auto;
+   position: relative;
+
+}
+
+.motivationWrapper {
+  overflow: hidden;
+  width: 100%;
+    position: relative;
+}
+
+
+.motivationConBlock {
+  /* background-color: #8fff8f; */
+  display: flex;
+  align-items: center;
+  transition: transform 0.5s ease-in-out;
+  width: fit-content;
+
+}
+
+
+.motivationConBox {
+  /* background-color: #fc03c6; */
+  width: 400px;
+  /* border: 2px solid black; */
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 0rem;
+
+}
+
+
+.motivationConBox img {
+  /* background-color: #fc03c6; */
+  width: auto;
+  height: 20rem;
+
+}
+
+.iconstar {
+  font-size: 1.6rem;
+  color: rgb(255, 217, 0);
+
+}
+
+.motivationConBox h2 {
+  /* background-color: #fc03c6; */
+  font-size: 2rem;
+  text-align: left;
+  font-family: "Outfit", sans-serif;
+  text-wrap: wrap;
+}
+
+.motivationConBox h3 {
+  /* background-color: #fc03c6; */
+  font-size: 2rem;
+  text-align: left;
+  font-family: "Outfit", sans-serif;
+  text-wrap: wrap;
+}
+
+.motivationConBox p {
+  /* background-color: #fc03c6; */
+  font-size: 1.5rem;
+  text-align: left;
+  font-family: "Outfit", sans-serif;
+  color: rgb(70, 70, 70);
+}
+
+.carouselControls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  pointer-events: none;
+}
+
+.carouselControls button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3rem;
+  background-color: white;
+  color: #bebebe;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  opacity: 0.8;
+  pointer-events: auto;
+  z-index: 2;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.carouselControls button:hover {
+  transform: translateY(-50%) scale(1.1);
+}
+
+.carouselControls #prev {
+  left: -5.5rem;
+}
+
+.carouselControls #next {
+  right: -5.5rem;
+}

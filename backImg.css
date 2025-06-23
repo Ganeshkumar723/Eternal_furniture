@@ -1,0 +1,56 @@
+/* HTML STRUCTURE */
+/* Step -1 - parentContainer */
+/* step -2 - component */
+/* step -3 - componentContainer */
+/* step -4 - row */
+/* step -5 - column */
+/* step -6 - subColumn */
+/* step -7 - contentContainer */
+/* step -8 - content */
+
+/* parent Container - default css style */
+
+
+/* step -2 - component */
+.backImg{
+    /* background-color: rgb(241, 11, 11);   */
+    background-image: url(./assets/images/sofa1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+/* step -3 - componentContainer */
+.backImgContainer {
+    /* background-color: rgb(91, 226, 12); */
+
+}
+
+/* step -4 - row */
+.backImgBody {
+    /* background-color: rgb(255, 255, 255); */
+
+}
+
+/* step -5 - column */
+.backImgBlock {
+    /* background-color: #fc03c6; */
+    
+
+}
+
+/* step -6 - subColumn */
+.backImgBox {
+    /* background-color: #dfbd4d; */
+    padding: 30rem 0rem;
+    
+    
+   
+    
+}
+
+/* step -7 - contentContainer */
+
+
+

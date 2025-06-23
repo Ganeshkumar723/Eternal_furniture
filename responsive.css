@@ -1,0 +1,312 @@
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+/* @media (width <=576px) */
+@media (max-width: 576px) {
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        grid-template-columns: 1fr;
+        padding: 0rem 1rem;
+    }
+
+    .paraBody {
+        display: none;
+    }
+
+    .logoBox img {
+        height: 6rem;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .navBarBody {
+        position: relative;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+    }
+
+    .linkBlock {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+        background: #fff;
+        padding: 3rem 2rem;
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        transition: right 0.3s ease;
+    }
+
+    .linkBlock.active {
+        right: 0;
+    }
+
+    .navToggle {
+        display: block;
+        font-size: 2.4rem;
+        z-index: 1000;
+        position: relative;
+    }
+
+    .navlinks {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: 0;
+    }
+
+
+    .heroBlock {
+        /* background-color: #fc03c6; */
+        height: 250px;
+        position: relative;
+
+    }
+
+    .aboutBox1 img {
+        /* background-color: aqua; */
+        height: auto;
+        max-width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    .aboutBox2 {
+        /* background-color: aqua; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .aboutBox2 h1 {
+        /* background-color: rgb(98, 216, 177); */
+        font-size: 2.5rem;
+        text-align: left;
+        width: 100%;
+    }
+
+    .aboutBox2 p {
+        /* background-color: aquamarine; */
+        font-size: 1.6;
+        text-wrap: wrap;
+        width: 100%;
+    }
+
+    .shopByBlock2 {
+        /* background-color: rgb(240, 112, 112); */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    .shopByBox .cardHeader img {
+        height: 10rem;
+        max-width: 100%;
+        border-radius: 50%;
+        margin: 2rem 0rem;
+
+    }
+
+    .shopByBox .cardMain h2 {
+        text-align: center;
+        font-size: 1.6rem;
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+    }
+
+    .backImg {
+        /* background-color: rgb(241, 11, 11);   */
+        background-image: url(./assets/images/sofa1.png);
+        background-size: contain;
+        height: 300px;
+
+    }
+
+    .favoritesBody {
+        width: 100%;
+        padding: 0rem 2rem;
+        /* background-color: aqua; */
+    }
+
+    .favoritesBox1 h2 {
+        /* background-color: #94f0f0; */
+        font-size: 2.5rem;
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+    }
+
+
+    .favoritesConBody {
+        width: 100%;
+    }
+
+    .favoritesConBlock {
+        display: flex;
+        width: 100%;
+        transform: translateX(0);
+        /* Let JS change this */
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .favoritesConBox {
+        flex: 0 0 100%;
+        /* Each card takes full screen */
+        max-width: 100%;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    .favoritesConBox img {
+        height: 45rem;
+        width: auto;
+        object-fit: contain;
+        margin: auto;
+    }
+
+    .favoritesConBox h2 {
+        font-size: 1.8rem;
+    }
+
+    .favoritesConBox p {
+        font-size: 1.4rem;
+    }
+
+    .banner2 {
+        background-color: rgb(255, 255, 255);
+        background-image: url(./assets/images/sofa2.png);
+        background-size: contain;
+        height: 200px;
+
+    }
+
+
+    .about2Box1 img {
+        /* background-color: aqua; */
+        height: auto;
+        max-width: 100%;
+        margin-bottom: 5rem;
+
+
+    }
+
+    .about2Box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about2Box2 h1 {
+        text-align: left;
+        font-size: 3.6rem;
+    }
+
+    .about2Box2 p {
+        text-align: left;
+        font-size: 1.8rem;
+        line-height: 1.8;
+
+    }
+
+    .motivationBox1 h2 {
+        /* background-color: rgb(216, 168, 105); */
+        text-align: center;
+        font-size: 3.5rem;
+        width: 70%;
+        text-wrap: wrap;
+        line-height: 1;
+    }
+
+    .motivationConBox img {
+        /* background-color: #fc03c6; */
+        width: auto;
+        height: 30rem;
+
+    }
+
+    .motivationConBox {
+        /* background-color: #fc03c6; */
+        width: 400px;
+        /* border: 2px solid black; */
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 3rem;
+
+    }
+
+    .iconsBody {
+        /* background-color: rgb(255, 255, 255); */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .iconsBox .comp {
+        /* background-color: #dfbd4d; */
+        color: #1C3223;
+        width: 50px;
+        height: auto;
+        margin-bottom: 1rem;
+
+    }
+
+    .iconsBox p {
+        /* background-color: #dfbd4d; */
+        font-size: 1.3rem;
+        font-weight: 700;
+        font-family: "Outfit", sans-serif;
+        text-wrap: wrap;
+        line-height: 1;
+        width: 80%;
+        margin-bottom: 4rem;
+
+    }
+
+    .contactsBody {
+        /* background-color: aqua; */
+        padding: 0rem 2rem;
+    }
+
+    .contactsBody2 {
+        /* background-color: rgb(255, 255, 255); */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 2rem;
+
+    }
+
+
+}
+
+/* Medium devices (tablets, upto 768px and above) */
+/* @media (min-width: 577px) and (max-width: 768px) */
+@media (min-width: 577px) {}
+
+/* Large devices (Laptops, upto 992px and above) */
+/* @media (min-width: 769px) and (max-width: 992px) */
+@media (width >=769px) and (width <=992px) {
+    /* write code here */
+}
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+/* @media (min-width: 993px) and (max-width: 1200px) */
+@media (width >=993px) and (width <=1200px) {
+    /* write code here */
+}
+
+/* XX-Large devices (larger desktops, upto 1400px and above) */
+/* @media (min-width: 1200px)  */
+@media (width >=1200px) {
+    /* write code here */
+}

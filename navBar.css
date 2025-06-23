@@ -1,0 +1,196 @@
+/* HTML STRUCTURE */
+/* Step -1 - parentContainer */
+/* step -2 - component */
+/* step -3 - componentContainer */
+/* step -4 - row */
+/* step -5 - column */
+/* step -6 - subColumn */
+/* step -7 - contentContainer */
+/* step -8 - content */
+
+/* parent Container - default css style */
+
+
+/* step -2 - component */
+.navBar {
+    /* background-color: rgb(255, 255, 255);   */
+
+
+
+}
+
+
+
+/* step -3 - componentContainer */
+.navBarContainer {
+    /* background-color: rgb(255, 255, 255); */
+
+}
+
+/* step -4 - row */
+.navBarBody {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 1.6rem 2rem;
+    /* column-gap: 1rem; */
+    /* row-gap: 1rem; */
+    gap: 1rem;
+
+}
+
+.paraBody {
+    background-color: #1C3223;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.7rem 2rem;
+    /* column-gap: 1rem; */
+    /* row-gap: 1rem; */
+    gap: 1rem;
+}
+
+/* step -5 - column */
+
+.paraBlock {
+    /* background-color:#5ff18d; */
+
+}
+
+.logoBlock {
+    /* background-color: hsl(0, 0%, 100%); */
+
+}
+
+.linkBlock {
+    /* background-color: #ffffff; */
+
+}
+
+/* step -6 - subColumn */
+.paraBox {
+    /* background-color: blue; */
+    width: 100%;
+}
+
+.paralinkBox {
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+
+.logoBox {
+    /* background-color: #ffffff; */
+    width: 100%;
+
+
+}
+
+.linkBox {
+    /* background-color: #ffffff; */
+    width: 100%;
+
+
+}
+
+
+/* step -7 - contentContainer */
+.logoBox img {
+    /* background-color: #ffffff; */
+    height: 8rem;
+    width: auto;
+    margin-left: 10rem;
+    filter: contrast(1.2);
+
+
+}
+
+.linkBox ul {
+    /* background-color:#ffffff; */
+    /* font-family: var(--ffSecondary);
+    font-size:var(--regularFont) ;
+    font-weight: 600; */
+
+
+}
+
+.linkBox button {
+    /* background-color:#0565FF;
+    color: white;
+    font-family: var(--ffSecondary);
+    font-weight: 500;
+    font-size: 1.6rem;
+    cursor: pointer;
+    border: none; */
+    /* border: var(--border); */
+    /* border-radius: var(--borderRadius);
+    padding: 1rem 2rem; */
+    /* height: 3rem; */
+    /* for Specific Width & Height */
+    /* width: 10rem; */
+    /* transition: background-color 0.3s ease; */
+    /* width: 100%; */
+    /* for Full Width */
+
+}
+
+.paraBox p {
+    color: white;
+    font-size: 1.6rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-left: 9.5rem;
+}
+
+
+
+.paralinks {
+    color: white;
+    font-family: Outfit, sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 18rem;
+    margin-right: 12rem;
+}
+
+.navlinks {
+    font-family: Outfit, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 22rem;
+    margin-right: 12rem;
+    position: relative;
+}
+
+
+.navlinks li {
+    position: relative;
+}
+
+.navToggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Hide closeIcon by default */
+.navToggle .closeIcon {
+    display: none;
+}
+
+/* When button has open class (menu opened), switch icons */
+.navToggle.open .openIcon {
+    display: none;
+}
+
+.navToggle.open .closeIcon {
+    display: inline;
+}
+

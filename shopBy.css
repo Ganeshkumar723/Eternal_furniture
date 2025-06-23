@@ -1,0 +1,78 @@
+/* HTML STRUCTURE */
+/* Step -1 - parentContainer */
+/* step -2 - component */
+/* step -3 - componentContainer */
+/* step -4 - row */
+/* step -5 - column */
+/* step -6 - subColumn */
+/* step -7 - contentContainer */
+/* step -8 - content */
+
+/* parent Container - default css style */
+
+
+/* step -2 - component */
+.shopBy{
+    background-color: rgb(255, 255, 255);  
+   
+}
+
+/* step -3 - componentContainer */
+.shopByContainer {
+    /* background-color: rgb(91, 226, 12); */
+
+}
+
+/* step -4 - row */
+.shopByBody {
+    /* background-color: rgb(255, 255, 255); */
+
+}
+
+/* step -5 - column */
+.shopByBlock {
+    /* background-color: #fc03c6; */
+    
+   
+
+}
+
+/* step -6 - subColumn */
+.shopByBox {
+    /* background-color: #dfbd4d; */
+    width: 100%;
+    
+}
+.shopByBox1 {
+    /* background-color: #dfbd4d; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.shopByBox1 h1{
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+    font-family: "Outfit", sans-serif;
+   
+    
+}
+/* step -7 - contentContainer */
+.shopByBox .cardHeader img{
+    height: 16rem;
+    /* width: 100%; */
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    
+}
+.shopByBox .cardMain h2{
+    text-align: center;
+    font-size: 2.5rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+}
+
+
+

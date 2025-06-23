@@ -1,0 +1,80 @@
+/* HTML STRUCTURE */
+/* Step -1 - parentContainer */
+/* step -2 - component */
+/* step -3 - componentContainer */
+/* step -4 - row */
+/* step -5 - column */
+/* step -6 - subColumn */
+/* step -7 - contentContainer */
+/* step -8 - content */
+
+/* parent Container - default css style */
+
+
+/* step -2 - component */
+.icons{
+    background-color: rgb(255, 255, 255);  
+   
+}
+
+/* step -3 - componentContainer */
+.iconsContainer {
+    /* background-color: rgb(91, 226, 12); */
+
+}
+
+/* step -4 - row */
+.iconsBody {
+    /* background-color: rgb(255, 255, 255); */
+    
+
+}
+.iconsBody2 {
+    /* background-color: rgb(255, 255, 255); */
+    padding: 5rem 0rem;
+
+}
+
+/* step -5 - column */
+.iconsBlock {
+    /* background-color: #fc03c6; */
+    
+
+}
+
+/* step -6 - subColumn */
+.iconsBox {
+    /* background-color: #dfbd4d; */
+    
+    
+    
+   
+    
+}
+
+/* step -7 - contentContainer */
+.iconsBox .comp {
+    /* background-color: #dfbd4d; */
+    color:#1C3223 ;
+    width: 60px;
+    height: auto;
+    margin-bottom: 1rem;
+    
+}
+.iconsBox p {
+    /* background-color: #dfbd4d; */
+    font-size: 1.8rem;
+    font-weight: 700;
+     font-family: "Outfit", sans-serif;
+     
+    
+}
+
+.iconsBox2 a{
+    font-size: 1.6rem;
+     font-weight: 700;
+     font-family: "Outfit", sans-serif;
+}
+
+
+
