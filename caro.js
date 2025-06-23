@@ -50,6 +50,13 @@ setInterval(() => {
     navToggleBtn.classList.toggle('open');
   });
 
+  document.addEventListener('click', function (e) {
+  if (!navLinks.contains(e.target) && !navToggleBtn.contains(e.target)) {
+    navLinks.classList.remove('active');
+    navToggleBtn.classList.remove('open');
+  }
+});
+
 
 
   const scrollToTopBtn = document.getElementById("scrollToTopBtn");

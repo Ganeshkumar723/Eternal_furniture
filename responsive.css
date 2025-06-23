@@ -58,8 +58,11 @@
 
     .navlinks {
         flex-direction: column;
-        gap: 1.5rem;
+        align-items: flex-start;
+        justify-content: flex-start;
         margin: 0;
+        padding: 0;
+        gap: 1.5rem;
     }
 
 
