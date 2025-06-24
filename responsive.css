@@ -127,7 +127,7 @@
     }
 
     .backImg {
-        background-color: rgb(255, 255, 255);  
+        background-color: rgb(255, 255, 255);
         background-image: url(./assets/images/sofa1.png);
         background-size: contain;
         height: 300px;
@@ -249,12 +249,28 @@
 
     }
 
-    .carouselControls #prev {
-        left: 1.5rem;
+    .carouselControls {
+        top: 50;
+        transform: translateY(-50%);
+        align-items: center;
+        justify-content: center;
+        gap: 40rem;
     }
 
+    .carouselControls #prev,
     .carouselControls #next {
-        right: 1.5rem;
+        margin: 0;
+    }
+
+ 
+
+    .carouselControls button {
+        font-size: 2.5rem;
+        background-color: #ffffff;
+        color: #000000;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+        border-radius: 50%;
+        padding: 0.6rem 0.8rem;
     }
 
     .iconsBody {
@@ -298,90 +314,99 @@
         padding-top: 2rem;
 
     }
+
     .contactsBox h1 {
-    /* background-color: #dfbd4d; */
-    color: rgb(255, 255, 255);
-    font-size: 1.6rem;
+        /* background-color: #dfbd4d; */
+        color: rgb(255, 255, 255);
+        font-size: 1.6rem;
 
-}
-.contactsBox h2 {
-    /* background-color: #dfbd4d; */
-    color: rgb(255, 255, 255);
-    font-size: 2rem;
-    font-family: "Outfit", sans-serif;
-    margin-bottom: 2rem; 
-}
-.contactsBox p {
-    /* background-color: #dfbd4d; */
-    color: rgb(255, 255, 255);
-    font-size: 1.4rem;
-    font-family: "Outfit", sans-serif;
-    margin-bottom: 2rem; 
-    line-height: 1;
-}
-#mail{
-     /* background-color: #4ddf59; */
-     color: rgb(255, 255, 255);
-    font-size: 1.5rem;
-    font-family: "Outfit", sans-serif;
-    font-weight: 700;
-    display: flex;
-    gap: 1rem;
-    
-}
-.contactsBox ul {
-    /* background-color: #57b631; */
-    color: rgb(255, 255, 255);
-    font-size: 1.4rem;
-    font-family: "Outfit", sans-serif;
+    }
 
-}
-.contactsBox li {
-    /* background-color: #31b695; */
-    color: rgb(255, 255, 255);
-    font-size: 1.5rem;
-   margin-bottom: 1.5rem;
+    .contactsBox h2 {
+        /* background-color: #dfbd4d; */
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+        font-family: "Outfit", sans-serif;
+        margin-bottom: 2rem;
+    }
+
+    .contactsBox p {
+        /* background-color: #dfbd4d; */
+        color: rgb(255, 255, 255);
+        font-size: 1.4rem;
+        font-family: "Outfit", sans-serif;
+        margin-bottom: 2rem;
+        line-height: 1;
+    }
+
+    #mail {
+        /* background-color: #4ddf59; */
+        color: rgb(255, 255, 255);
+        font-size: 1.5rem;
+        font-family: "Outfit", sans-serif;
+        font-weight: 700;
+        display: flex;
+        gap: 1rem;
+
+    }
+
+    .contactsBox ul {
+        /* background-color: #57b631; */
+        color: rgb(255, 255, 255);
+        font-size: 1.4rem;
+        font-family: "Outfit", sans-serif;
+
+    }
+
+    .contactsBox li {
+        /* background-color: #31b695; */
+        color: rgb(255, 255, 255);
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
 
 
-   
-}
-.contactsBox #soc{
-    /* background-color: #da0c8b; */
-    color: rgb(255, 255, 255);
-    width: 100%;
-}
-.contactsBox #social{
-    /* background-color: #da0c8b; */
-    color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    font-size: 2.5rem;
-}
 
-.contactsBox input{
-    font-family: "Outfit", sans-serif;
-    font-size: 2rem;
-    padding: 0.8rem 3rem;
-    max-width: 100%;
-    /* border: 2px solid black; */
-    border-radius: 5rem;
-}
-    
-.contactsBox2 p {
-    /* background-color: #dfbd4d; */
-    color: rgb(255, 255, 255);
-    font-family: "Outfit", sans-serif;
-    font-size: 1rem;
-   
-}
-.contactsBox3 p {
-    /* background-color: #dfbd4d; */
-    color: rgb(255, 255, 255);
-    font-family: "Outfit", sans-serif;
-    font-size: 1rem;
-   
-}
+    }
+
+    .contactsBox #soc {
+        /* background-color: #da0c8b; */
+        color: rgb(255, 255, 255);
+        width: 100%;
+    }
+
+    .contactsBox #social {
+        /* background-color: #da0c8b; */
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .contactsBox input {
+        font-family: "Outfit", sans-serif;
+        font-size: 2rem;
+        padding: 0.8rem 3rem;
+        max-width: 100%;
+        /* border: 2px solid black; */
+        border-radius: 5rem;
+    }
+
+    .contactsBox2 p {
+        /* background-color: #dfbd4d; */
+        color: rgb(255, 255, 255);
+        font-family: "Outfit", sans-serif;
+        font-size: 1rem;
+
+    }
+
+    .contactsBox3 p {
+        /* background-color: #dfbd4d; */
+        color: rgb(255, 255, 255);
+        font-family: "Outfit", sans-serif;
+        font-size: 1rem;
+
+    }
 
 
 

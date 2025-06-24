@@ -82,31 +82,24 @@
 .motivationWrapper {
   overflow: hidden;
   width: 100%;
-    position: relative;
+  position: relative;
 }
 
-
 .motivationConBlock {
-  /* background-color: #8fff8f; */
   display: flex;
   align-items: center;
   transition: transform 0.5s ease-in-out;
   width: fit-content;
-
 }
 
-
 .motivationConBox {
-  /* background-color: #fc03c6; */
   width: 400px;
-  /* border: 2px solid black; */
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 1rem;
-  padding: 2rem 0rem;
-
+  padding: 2rem 3rem;
+  box-sizing: border-box;
 }
 
 
@@ -152,33 +145,29 @@
   top: 50%;
   transform: translateY(-50%);
   width: 100%;
-  pointer-events: none;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none; /* keep this */
+  z-index: 2;
 }
 
 .carouselControls button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 3rem;
+  font-size: 2rem;
   background-color: white;
   color: #bebebe;
   border: none;
   padding: 0.5rem 1rem;
   cursor: pointer;
-  opacity: 0.8;
-  pointer-events: auto;
-  z-index: 2;
+  opacity: 0.9;
+  pointer-events: auto; /* let buttons receive touch */
+  z-index: 3;
   transition: transform 0.2s ease, background 0.3s ease;
 }
 
-.carouselControls button:hover {
-  transform: translateY(-50%) scale(1.1);
-}
-
 .carouselControls #prev {
-  left: -5.5rem;
+  margin-left: 1rem;
 }
 
 .carouselControls #next {
-  right: -5.5rem;
+  margin-right: 1rem;
 }
