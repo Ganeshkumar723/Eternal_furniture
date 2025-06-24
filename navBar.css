@@ -150,9 +150,9 @@
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 18rem;
-    margin-right: 12rem;
+    justify-content:center;
+    gap: 2rem;
+
 }
 
 .navlinks {
