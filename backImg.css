@@ -13,7 +13,7 @@
 
 /* step -2 - component */
 .backImg{
-    /* background-color: rgb(241, 11, 11);   */
+    background-color: rgb(255, 255, 255);  
     background-image: url(./assets/images/sofa1.png);
     background-position: center;
     background-repeat: no-repeat;
