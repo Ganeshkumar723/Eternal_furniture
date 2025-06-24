@@ -82,24 +82,31 @@
 .motivationWrapper {
   overflow: hidden;
   width: 100%;
-  position: relative;
+    position: relative;
 }
 
+
 .motivationConBlock {
+  /* background-color: #8fff8f; */
   display: flex;
   align-items: center;
   transition: transform 0.5s ease-in-out;
   width: fit-content;
+
 }
 
+
 .motivationConBox {
+  /* background-color: #fc03c6; */
   width: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /* border: 2px solid black; */
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding: 2rem 3rem;
-  box-sizing: border-box;
+  gap: 1rem;
+  padding: 2rem 0rem;
+
 }
 
 
