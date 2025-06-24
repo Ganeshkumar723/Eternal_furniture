@@ -127,7 +127,7 @@
     }
 
     .backImg {
-        /* background-color: rgb(241, 11, 11);   */
+        background-color: rgb(255, 255, 255);  
         background-image: url(./assets/images/sofa1.png);
         background-size: contain;
         height: 300px;
@@ -368,7 +368,20 @@
     border-radius: 5rem;
 }
     
-
+.contactsBox2 p {
+    /* background-color: #dfbd4d; */
+    color: rgb(255, 255, 255);
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+   
+}
+.contactsBox3 p {
+    /* background-color: #dfbd4d; */
+    color: rgb(255, 255, 255);
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+   
+}
 
 
 
